@@ -25,9 +25,14 @@ require __DIR__.'/auth.php';
 
 Route::get('dealerships', [App\Http\Controllers\DealershipController::class, 'index']);
 Route::get('dealerships/booking', function () {return view('booking');})->name('book.deal');
-Route::get('content/article1', function () {return view('contentArtikel');});
-Route::get('dashboard', function () {return view('log');})->name('dashboard');
+Route::get('content/article1', function () {return view('contentProduk');})->name('content');
+Route::get('home', function () {return view('homepage');})->name('dashboard');
 Route::get('dealerships', [App\Http\Controllers\DealershipController::class, 'index'])->name('dealerships');
+Route::get('chat', function () {return view('chat');})->name('chat');
+Route::get('reg', function () {return view('reg');})->name('reg');
+Route::get('log', function () {return view('log');})->name('log');
+Route::get('tips', function () {return view('tips1');})->name('tips');
+Route::get('tips/content', function () {return view('tips2');})->name('tips2');
 
 
 #Route::get('/dealerships', function () {return view('dealership');})->middleware(['auth'])->name('dealership');

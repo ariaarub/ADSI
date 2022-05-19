@@ -57,7 +57,6 @@
                     <h1 class="login">Login</h1></div>
                     <p style="padding-left: 17px; padding-top:2px;">Masuk ke dalam akunmu</p>
                     <br><br>
-                    <form method="POST" action="dashboard.blade.php">
                         <div class="form-group">
                             <label for="uname">EMAIL/USERNAME</label>
                             <input type="text" class="form-control" id="uname">
@@ -66,9 +65,8 @@
                             <label for="pword">PASSWORD</label>
                             <input type="text" class="form-control" id="pword">
                         </div>
-                        <br><a href="register.html" id="text1">Belum punya akun? Buat akun disini</a><br><br>
-                        <button type="submit" class="tombol">Login</button>
-                    </form>
+                        <br><a href="{{route('reg')}}" method="post" id="text1">Belum punya akun? Buat akun disini</a><br><br>
+                        <a href="{{route('dashboard')}}" method="post"><button type="submit" class="tombol">Login</button></a>
                     
                 </div>
             <div class="col"></div>

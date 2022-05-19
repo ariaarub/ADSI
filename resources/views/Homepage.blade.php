@@ -64,12 +64,12 @@ p{
 		<h5 class="d-flex justify-content-between mt-5 px-3">Mr. Rudy </h5><p class="pl-3 home" style="font-size: 10px";> MotoBuddies <i class="fa fa-caret-down"></i></p>
 		<div class="row">
 		     <div class="col-md-6 d-flex justify-content-center">
-		     	<div class="card insert ml-3 mb-3 container">
+		     	<a href="{{route('content')}}"><div class="card insert ml-3 mb-3 container">
 		     		<img src="https://img.icons8.com/bubbles/344/car.png" class="center" />
 		     		<span>Content</span>
-		     		<p>Tips & Tricks for your Vehicles</p>
+		     		<p>Articles</p>
 		     			     		
-		     	</div>
+		     	</div></a>
 			
 		     </div>
 		     <div class="col-md-6 d-flex justify-content-center">
@@ -85,42 +85,44 @@ p{
 	    </div>
 	    <div class="row">
 		     <div class="col-md-6 d-flex justify-content-center">
-		     	<div class="card insert ml-3 mb-3 container">
+		     	<a href="{{route('dealerships')}}" method="post"><div class="card insert ml-3 mb-3 container">
 		     		<img src="https://img.icons8.com/bubbles/128/000000/user-location.png" class="center"/>
 		     		<span>Location</span>
 		     		<p>Search MotoBuddies Dealer.</p>
 		     		<p class="opaque">o</p>
-		     	</div>
+		     	</div></a>
+
 			
 		     </div>
 		     <div class="col-md-6 d-flex justify-content-center">
-		     	<div class="card insert mr-3 mb-3 container">
+		     	<a href="{{route('chat')}}" method="post"><div class="card insert mr-3 mb-3 container">
 		     		<img src="https://img.icons8.com/fluent/128/000000/alarm.png" class="center"/>
 		     		<span>Help</span>
 		     		<p>Chat with Customer Service</p>
 		     		<p class="opaque">o</p>
 		     	</div>
+				 </a>
 			
 		     </div>
 		
 	    </div>
 	    <div class="row">
 		     <div class="col-md-6 d-flex justify-content-center">
-		     	<div class="card insert ml-3 mb-3 container">
+		     	<a href="{{route('tips')}}" method="post"><div class="card insert ml-3 mb-3 container">
 		     		<img src="https://img.icons8.com/doodle/2x/alarm-clock.png" class="center"/>
-		     		<span>When?</span>
-		     		<p>Check the recommended service schedule</p>
+		     		<span>Tips and Tricks</span>
+		     		<p>For your maintenance lifehacks</p>
 		     	
-		     	</div>
+		     	</div></a>
 			
 		     </div>
 		     <div class="col-md-6 d-flex justify-content-center">
-		     	<div class="card insert mr-3 mb-3 container">
+		     	<a href="{{route('log')}}" method="post"><div class="card insert mr-3 mb-3 container">
 		     		<img src="https://img.icons8.com/fluent/128/000000/settings.png" class="center" />
 		     		<span>Settings</span>
 		     		<p>Edit Profile, About, Etc</p>
 		     		
-		     	</div>
+		     	</div></a>
 			
 		     </div>
 		
