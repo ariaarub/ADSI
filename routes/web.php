@@ -24,8 +24,7 @@ Route::get('/dashboard', function () {
 require __DIR__.'/auth.php';
 
 Route::get('dealerships', [App\Http\Controllers\DealershipController::class, 'index']);
-Route::get('booking', function () {return view('booking');});
-Route::get('dealerships/booking', function () {return view('booking');});
-
+Route::get('dealerships/booking', function () {return view('booking');})->name('book.deal');
+Route::get('content/article1', function () {return view('contentArtikel');});
 
 #Route::get('/dealerships', function () {return view('dealership');})->middleware(['auth'])->name('dealership');

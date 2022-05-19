@@ -139,6 +139,7 @@
         <h3 style="position: absolute; left: calc(50% - 129px/2); bottom: 16px;">Lokasi Dealer</h3>
     </header>
     <div class="middle-container">
+        <a href="{{route('book.deal')}}" method="post">
         <div class="locations">
             <div>
                 <img class="img-location" src="sprites/Small.png" alt="" style="width: 56px; height: 56px;">
@@ -151,6 +152,7 @@
                 <h4 class="store-status">Buka</h4>
             </div>
         </div>
+        </a>
     </div>
     <footer>
         <div class="mid-search">
