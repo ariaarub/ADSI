@@ -8,7 +8,6 @@ use Illuminate\Http\Request;
 class DealershipController extends Controller
 {
     public function index(){
-        $loc = DB::table('servicelocations')->get();
-        return view('dealership', ['servicelocations' => $loc]);
+        return view('dealership');
     }
 }
