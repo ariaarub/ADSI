@@ -135,7 +135,7 @@
 
 <body>
     <header>
-        <img src="sprites/default.png" alt="" style="position: absolute; width: 32px; height: 32px; left: 16px; bottom: 12px;">
+        <a href="{{route('dashboard')}}" method="post"><img src="sprites/default.png" alt="" style="position: absolute; width: 32px; height: 32px; left: 16px; bottom: 12px;"></a>
         <h3 style="position: absolute; left: calc(50% - 129px/2); bottom: 16px;">Lokasi Dealer</h3>
     </header>
     <div class="middle-container">

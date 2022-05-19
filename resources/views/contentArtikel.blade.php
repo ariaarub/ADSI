@@ -156,7 +156,7 @@ nav li a:hover {
         <div class="sidebar">
             <nav>
                 <ul>
-                    <li><a  href="" style="text-align: center;">Content</a></li>
+                    <li><a  href="{{route('dashboard')}}" style="text-align: center;" method="post">Content</a></li>
                 </ul>
             </nav>
         </div>
