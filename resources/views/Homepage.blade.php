@@ -73,12 +73,12 @@ p{
 			
 		     </div>
 		     <div class="col-md-6 d-flex justify-content-center">
-		     	<div class="card insert mr-3 mb-3 container">
+			 <a href="{{route('book.deal')}}" method="post"><div class="card insert mr-3 mb-3 container">
 		     		<img src="https://img.icons8.com/external-flaticons-flat-flat-icons/344/external-booking-rage-room-flaticons-flat-flat-icons.png" class="center"/>
 		     		<span>Booking</span>
 		     		<p>Book your service date</p>
 		     		
-		     	</div>
+		     	</div></a>
 			
 		     </div>
 		
@@ -119,8 +119,8 @@ p{
 		     <div class="col-md-6 d-flex justify-content-center">
 		     	<a href="{{route('log')}}" method="post"><div class="card insert mr-3 mb-3 container">
 		     		<img src="https://img.icons8.com/fluent/128/000000/settings.png" class="center" />
-		     		<span>Settings</span>
-		     		<p>Edit Profile, About, Etc</p>
+		     		<span>Logout</span>
+		     		<p>Bye</p>
 		     		
 		     	</div></a>
 			

@@ -32,7 +32,7 @@ Route::get('chat', function () {return view('chat');})->name('chat');
 Route::get('reg', function () {return view('reg');})->name('reg');
 Route::get('log', function () {return view('log');})->name('log');
 Route::get('tips', function () {return view('tips1');})->name('tips');
-Route::get('tips/content', function () {return view('tips2');})->name('tips2');
+Route::get('tips/content', function () {return view('tips2');})->name('viewtips');
 
 
 #Route::get('/dealerships', function () {return view('dealership');})->middleware(['auth'])->name('dealership');

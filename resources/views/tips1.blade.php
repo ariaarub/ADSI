@@ -31,7 +31,7 @@
                           <option value="2">Kopling</option>
                           <option value="3">Matic</option>
                         </select>
-                    <a href="{{route('viewtips')}}" method="post"></a><div class="text-right mt-4"> <button class="btn btn-danger integration">Lihat</button> </div>
+                    <a href="{{route('viewtips')}}" method="post"><div class="text-right mt-4"> <button class="btn btn-danger integration">Lihat</button> </div></a>
                 </div>
             </div>
         </div>

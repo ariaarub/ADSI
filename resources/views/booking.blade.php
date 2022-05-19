@@ -51,7 +51,7 @@ body{
                     <div class="mt-2 inputs"> <span>Tanggal</span> <input type="text" class="form-control" placeholder="Tanggal"> </div>
                     <div class="mt-2 inputs"> <span>Tipe Servis</span> <input type="text" class="form-control" placeholder="Tipe Servis"> </div>
                     <div class="mt-2 inputs"> <span>Catatan</span> <input type="text" class="form-control" placeholder="Catatan"> </div>
-                    <div class="text-center mt-4"> <a href="{{route('dealerships')}}" method="post" class="btn btn-danger integration">Pesan</a> </div>
+                    <div class="text-center mt-4"> <a href="{{route('dealerships')}}" method="post" class="btn btn-danger integration">Book</a> </div>
                 </div>
             </div>
         </div>

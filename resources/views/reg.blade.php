@@ -63,7 +63,7 @@
                         </div>
                         <div class="form-group">
                             <label for="pword">PASSWORD</label>
-                            <input type="text" class="form-control" id="pword">
+                            <input type="password" class="form-control" id="pword">
                         </div>
                         <a href="{{route('log')}}" method="post"><button type="submit" class="tombol">Register</button></a>
                     
