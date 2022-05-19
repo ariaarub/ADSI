@@ -12,9 +12,8 @@
 		if($ck){
 		$ar = $mysqli-> query("CALL showContent($article)");
 		$row = $ar -> fetch_object();	
-		}else(
+		}else
 			pesanGagal();
-		)
 	}
 
 	function pesanGagal(){
